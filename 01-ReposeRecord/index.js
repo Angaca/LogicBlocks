@@ -1,6 +1,6 @@
 const fs = require("fs");
-const { getSleepiestGuard } = require("../getSleepiestGuard");
-const { getSleepiestMinute } = require("../getSleepiestMinute");
+const { getSleepiestGuard } = require("./getSleepiestGuard");
+const { getSleepiestMinute } = require("./getSleepiestMinute");
 
 const guardsLogs = fs.readFileSync("./input.txt", "utf-8").split("\n").sort();
 
