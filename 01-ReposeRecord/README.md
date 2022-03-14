@@ -1,3 +1,5 @@
+https://adventofcode.com/2018/day/4
+
 You've sneaked into another supply closet - this time, it's across from the prototype suit manufacturing lab. You need to sneak inside and fix the issues with the suit, but there's a guard stationed outside the lab, so this is as close as you can safely get.
 
 As you search the closet for anything that might help, you discover that you're not the first person to want to sneak in. Covering the walls, someone has spent an hour starting every midnight for the past few months secretly observing this guard post! They've been writing down the ID of the one guard on duty that night - the Elves seem to have decided that one guard was enough for the overnight shift - as well as when they fall asleep or wake up while at their post (your puzzle input).
@@ -25,14 +27,14 @@ Timestamps are written using year-month-day hour:minute format. The guard fallin
 
 Visually, these records show that the guards are asleep at these times:
 
-Date   ID   Minute
-            000000000011111111112222222222333333333344444444445555555555
-            012345678901234567890123456789012345678901234567890123456789
-11-01  #10  .....####################.....#########################.....
-11-02  #99  ........................................##########..........
-11-03  #10  ........................#####...............................
-11-04  #99  ....................................##########..............
-11-05  #99  .............................................##########.....
+Date ID Minute
+000000000011111111112222222222333333333344444444445555555555
+012345678901234567890123456789012345678901234567890123456789
+11-01 #10 .....####################.....#########################.....
+11-02 #99 ........................................##########..........
+11-03 #10 ........................#####...............................
+11-04 #99 ....................................##########..............
+11-05 #99 .............................................##########.....
 The columns are Date, which shows the month-day portion of the relevant day; ID, which shows the guard on duty that day; and Minute, which shows the minutes during which the guard was asleep within the midnight hour. (The Minute column's header shows the minute's ten's digit in the first row and the one's digit in the second row.) Awake is shown as ., and asleep is shown as #.
 
 Note that guards count as asleep on the minute they fall asleep, and they count as awake on the minute they wake up. For example, because Guard #10 wakes up at 00:25 on 1518-11-01, minute 25 is marked as awake.
@@ -45,4 +47,4 @@ In the example above, Guard #10 spent the most minutes asleep, a total of 50 min
 
 While this example listed the entries in chronological order, your entries are in the order you found them. You'll need to organize them before they can be analyzed.
 
-What is the ID of the guard you chose multiplied by the minute you chose? (In the above example, the answer would be 10 * 24 = 240.)
+What is the ID of the guard you chose multiplied by the minute you chose? (In the above example, the answer would be 10 \* 24 = 240.)
